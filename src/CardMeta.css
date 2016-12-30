@@ -1,0 +1,27 @@
+.card .meta {
+  position: absolute;
+  top: 40px;
+  background: #282c34;
+  width: 100%;
+  padding:15px;
+  font-size: 14px;
+  color: #abb2bf;
+  text-align: left;
+}
+
+.var {
+  color: #e5c07b;
+}
+
+.varName {
+  color: #c678dd;
+}
+
+.varKey {
+  color: #49a6ef;
+}
+
+.varValue {
+  color: #98c379;
+  width:100%;
+}
