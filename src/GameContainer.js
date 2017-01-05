@@ -19,7 +19,7 @@ class GameContainer extends Component {
   setUpGame() {
     let deck = GameUtils.getShuffledDeck();
     this.state = {
-      deck: deck,
+      deck,
       cardContainers: GameUtils.setUpCardContainers(deck),
       completeContainers: GameUtils.setUpCompletedCardContainers()
     }
