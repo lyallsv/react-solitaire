@@ -1,0 +1,130 @@
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    border-radius: 50%;
+
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+
+.jssorb01 div {
+    background-color: gray;
+}
+
+    .jssorb01 div:hover, .jssorb01 .av:hover {
+        background-color: #d3d3d3;
+    }
+
+.jssorb01 .av {
+    background-color: #FFF;
+}
+
+.jssorb01 .dn, .jssorb01 .dn:hover {
+    background-color: #555555;
+}
+
+.jssora02l, .jssora02r, .jssora02ldn, .jssora02rdn
+{
+
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../images/a02.png) no-repeat;
+    overflow:hidden;
+}
+.jssora02l { background-position: -3px -33px; }
+.jssora02r { background-position: -63px -33px; }
+.jssora02l:hover { background-position: -123px -33px; }
+.jssora02r:hover { background-position: -183px -33px; }
+.jssora02ldn { background-position: -243px -33px; }
+.jssora02rdn { background-position: -303px -33px; }
+.captionOrange, .captionBlack
+{
+    color: #fff;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 4px;
+}
+.captionOrange
+{
+width:800px;
+    position:absolute; 
+    left:50px; top: 70px; 
+    
+}
+
+.captionOrangea {
+    
+    text-transform: uppercase;
+    font-size: 19px;
+    color: #000;
+    padding:5px;
+    background: #FFF;
+    font-weight: bold;
+    float:left;
+}
+.captionBlack
+{
+    font-size:16px;
+    background: #000;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+a.captionOrange, A.captionOrange:active, A.captionOrange:visited
+{
+    color: #ffffff;
+    text-decoration: none;
+}
+a.captionOrange:hover
+{
+    color: #eb5100;
+    text-decoration: underline;
+    background-color: #eeeeee;
+    background-color: rgba(238, 238, 238, 0.7);
+}
+.bricon
+{
+    background: url(../img/browser-icons.png);
+}
+
+.slider-desc {
+    background: #000;
+    font-size: 17px;
+    color:#FFF;
+    padding: 5px;
+}
+
+.slider-desc a {
+    color: #fff;
+}
+
+
+
+.navigator {
+    margin: 0 auto;
+    position: absolute;
+    left:0; right:0;
+    top:70px;
+}
+
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: transparent url(../img/carousel_control.png) no-repeat 0 0;
+    overflow: hidden;
+}
+
+.jssora12l {
+    background-position: 12px 0px;
+}
+
+.jssora12r {
+    background-position: -18px 0;
+}
+
+.jssora12l:hover {
+}
+
+.jssora12r:hover {
+}
+
